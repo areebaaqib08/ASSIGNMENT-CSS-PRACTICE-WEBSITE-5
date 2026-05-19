@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>INTRODUCTION OF HTML </title>
+</head>
+<body>
+
+    <h1> Introdution og HTML</h1>
+
+    <P1>
+        HTML (HyperText Markup Language) is the standard language used to create and design webpages. 
+        It helps structure content such as text, images, and links on the internet. HTML is important 
+        because it forms the foundation of all websites and works together with CSS and JavaScript 
+        to create modern web applications.
+    </p>
+
+    <p>
+    <a href="https://www.w3schools.com/html/" target="_blank">Visit HTML Tutorial</a>
+    </p>
+
+     <!-- Image -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" 
+         alt="HTML Logo" width="200">
+         <h2>Key Features of HTML</h2>
+    <ul>
+        <li>Easy to learn and use</li>
+        <li>Used to create webpage structure</li>
+        <li>Supports multimedia (images, videos)</li>
+        <li>Works with CSS and JavaScript</li>
+        <li>Platform independent</li>
+    </ul>
+    <!-- Form -->
+    <h2>Student Registration Form</h2>
+    <form>
+
+        <!-- Name -->
+        <label>Name:</label><br>
+        <input type="text" name="name" placeholder="Enter your name"><br><br>
+
+        <!-- Email -->
+        <label>Email:</label><br>
+        <input type="email" name="email" placeholder="Enter your email"><br><br>
+
+                <!-- Gender -->
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="male"> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br><br>
+
+ <!-- Course Dropdown -->
+        <label>Select Course:</label><br>
+        <select name="course">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">JavaScript</option>
+        </select><br><br>
+
+         <!-- Submit Button -->
+        <button type="submit">Submit</button>
+
+    </form>
+
+</body>
+</html>
+
+
+
+
